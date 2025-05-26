@@ -46,7 +46,7 @@ namespace Sarim_CC_Lab12.Controllers
             {
                 TempData["message"] = "The person has an evil and cruel mindset";
             }
-                return RedirectToAction("Index");
+            return RedirectToAction("Index");
         }
     }
 }
